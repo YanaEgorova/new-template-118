@@ -1,0 +1,23 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #f4b62e;
+  --second-brand-color: #212a31;
+  --third-brand-color: #ebebeb;
+  --fourth-brand-color: red;
+  --fifth-brand-color: #fdfdfd;
+
+  --main-font:  'Raleway';
+  --title-font:  'Raleway ExtraBold';
+  --main-title-font: 'Muli';
+
+  font-size: 62.5%;
+}

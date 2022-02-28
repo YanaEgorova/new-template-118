@@ -1,0 +1,118 @@
+.footer__wrapper {
+  position: relative;
+  background-color: var(--first-brand-color);
+}
+.footer {
+  padding: 0 0 3rem;
+
+  background: rgba( 255, 255, 255, 0.2 );
+  backdrop-filter: blur( 2.5px );
+  -webkit-backdrop-filter: blur( 2.5px );
+}
+.footer__logo {
+  display: block;
+  margin-bottom: 2rem;
+}
+.footer__subtitle {
+  margin-bottom: 2rem;
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.footer .list, .footer .sub-list {
+  margin-bottom: 1.5rem;
+}
+.footer .item:not(:last-child) {
+  margin-bottom: .5rem;
+}
+.footer__link, .footer .text {
+  font-size: 2rem;
+  position: relative;
+}
+.footer__link::after {
+  display: block;
+  content: '';
+  bottom: -.1rem;
+  left: 0;
+  position: absolute;
+  height: 0.1rem;
+  width: 0;
+  background-color: var(--main-text-color);
+  transition: all 0.3s ease-in-out;
+}
+.footer .text--mb {
+  margin-bottom: 2rem;
+}
+.footer__span {
+  font-size: 1.4rem;
+}
+.item--df {
+  display: flex;
+  align-items: center;
+}
+.item--df svg {
+  width: 3rem;
+  min-width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+.footer__policies {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+.footer .item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.footer__icon {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__link:hover::after {
+    width: 100%;
+  }
+  .footer .sub-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .item:not(:last-child) {
+      margin-bottom: 0;
+  }
+  .footer .item {
+    width: 20%;
+    text-align: center;
+  }
+  .footer__block--jus {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__subtitle {
+    margin-bottom: 0;
+  }
+  .line {
+    flex-grow: 1;
+    height: .1rem;
+    background-color: var(--main-text-color);
+    margin: 0 2rem;
+  }
+  .df {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .footer__logo {
+    margin-bottom: 0;
+  }
+  .footer__subtitle-center {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+}
