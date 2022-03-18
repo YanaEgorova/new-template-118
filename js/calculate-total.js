@@ -55,7 +55,10 @@ function cartAdd(e) {
 
     // ADD TO LOCAL STORAGE
     if (okay){
+       
+    if(cartSpan) {
         cartSpan.textContent = Number(amount.textContent) + Number(cartSpan.textContent);
+    }
         setAmountToCartSpan();
 
         localStorage(id, amount.textContent);
