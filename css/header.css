@@ -1,6 +1,9 @@
 .header__wrapper {
     position: relative;
 }
+body.open-menu {
+    overflow: hidden;
+}
 .header__wrapper-top {
     /* background-color: #000; */
     padding: 2rem 1rem;
@@ -50,7 +53,7 @@
     max-width: 120rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 25rem 1.6rem;
+    padding: 16rem 1.6rem;
     opacity: 0;
     transition-delay: .6s;
     transition-duration: .4s;

@@ -151,6 +151,7 @@
     overflow: hidden;
     position: relative;
     height: 70vh;
+    min-height: 60rem;
   }
   .slider3d.no-select {
     -webkit-user-select: none;
@@ -319,6 +320,9 @@
 .product__img-box .img {
     height: 40rem;
     max-height: 40rem;
+}
+.slider3d {
+  min-height: 90rem;
 }
 }
 
