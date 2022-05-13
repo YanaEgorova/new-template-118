@@ -12,7 +12,6 @@
 <body>
 
 
-
   <div class="wrapper">
     <div class="header__wrapper">
       <div class="header__wrapper-top">
@@ -66,16 +65,16 @@
                 <a href="./index.html" class="nav__link ">Home</a>
               </li>
               <li class="nav__item">
-                <a href="./contacts.html" class="nav__link ">Contact Us</a>
+                <a href="./contacts.html" class="nav__link active">Contact Us</a>
               </li>
               <li class="nav__item">
-                <a href="./privacy.html" class="nav__link ">Privacy Notice</a>
+                <a href="./privacy.html" class="nav__link">Privacy Notice</a>
               </li>
               <li class="nav__item">
-                <a href="./purchase.html" class="nav__link ">Terms of Purchase</a>
+                <a href="./purchase.html" class="nav__link">Terms of Purchase</a>
               </li>
               <li class="nav__item">
-                <a href="./return.html" class="nav__link active">Return Policy</a>
+                <a href="./return.html" class="nav__link">Return Policy</a>
               </li>
               <li class="nav__item">
                 <a href="./shipping.html" class="nav__link">Shipping Policy</a>
@@ -89,22 +88,35 @@
       </div>
     </div>
 
-    <main class="main bg-main">
-      <div class="text-section__wrapper white__wrapper">
-        <section class="text-section">
-          <div class="container">
-            <h1 class="title">RETURN POLICY</h1>
-           <p class="text">The items are eligible for free replacement, within 30 days of delivery, in an unlikely event of damaged, defective or different item delivered to you.</p>
-           <p class="text">Please keep the item in its original condition, with outer box or case, accessories, CDs, user manual, warranty cards, scratch cards, and other accompaniments in manufacturer packaging for a successful return pick-up.</p>
-           <p class="text">Return at this address: <span class="js_website-return-address"></span></p>
-           <p class="text">The funds should return to your account within 1-2 days depending on your bank.</p>
-        </div>
-        </section>
-    </div>
-     </main>
 
+    <main class="main bg-main">
+        <div class="text-section__wrapper white__wrapper">
+          <section class="text-section">
+            <div class="container">
+              <h1 class="title">Cancellation of Order</h1>
+              <form>
+                <p class="text">Please fill out the information below. After completing and submitting this form, 
+                  your account will be terminated and all billing will be stopped. Once the account has been cancelled, you will receive a cancellation email confirmation.
+                </p>
+                <label class="label js_label">
+                  <input type="text" class="input js_input" data-role="required" name="email" placeholder="Email">
+                </label>
+          
+                <label class="label js_label">
+                  <input type="text" class="input js_input" data-role="required" name="phone" placeholder="Phone Number">
+                </label>
     
-     <div class="footer__wrapper">
+                <label class="label js_label">
+                  <input type="text" class="input js_input" data-role="required" name="orderid" placeholder="Order Number">
+                </label>
+              </form> 
+            </div>
+          </section>
+      </div>
+    </main>
+
+   
+    <div class="footer__wrapper">
       <footer class="footer">
         <div class="footer__top">
           <div class="container">
