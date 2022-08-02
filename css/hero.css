@@ -55,6 +55,7 @@
     height: 30rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
+    background-color: var(--first-brand-color);
     -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
     clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
 }
