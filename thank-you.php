@@ -134,6 +134,9 @@
                 <li class="item">
                   <a href="./purchase.html" class="footer__link">Terms of Purchase</a>
                 </li>
+                <li class="item">
+                  <a href="./affiliate-program.html" class="footer__link">Affiliate Program</a>
+                </li>
               </ul>
             </div>
             <div class="footer__block footer__block--jus">
